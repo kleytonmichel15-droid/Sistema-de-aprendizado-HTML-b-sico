@@ -1,21 +1,26 @@
 #header {
     background-color: #19248a;
     color: white;
-    padding: 9px;
+    padding: 10px;
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 #menu {
     float: left;
     width: 20%;
-    height: 390px;
-    background-color: #f1f1f1;
+    height: 640px;
+    background-color: #e3e8e5;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
 }
 
 #main {
     margin-left: 20%;
-    height: 350px;
+    height: 600px;
     padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
 #footer {
@@ -23,4 +28,5 @@
     color: white;
     padding: 1px;
     text-align: center;
+    font-family: Arial, sans-serif;
 }
