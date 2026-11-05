@@ -9,7 +9,7 @@
 #menu {
     float: left;
     width: 20%;
-    height: 1285px;
+    height: 1310px;
     background-color: #e3e8e5;
     font-size: 25px;
     font-family: Arial, sans-serif;
@@ -18,7 +18,7 @@
 
 #main {
     margin-left: 20%;
-    height: 1245px;
+    height: 1270px;
     padding: 20px;
     font-family: Arial, sans-serif;
 }
