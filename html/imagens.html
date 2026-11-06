@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kleyton Michel">
+    <title>Estudo - Imagens e multimídia</title>
+    <link rel="stylesheet" href="../css/imagens.css">
+    
+</head>
+<body>
+  <div id="header">
+    <img src="../img/logotipo.webp" alt="Logotipo" width="70" height="70">  
+    <h1>Html básico para iniciantes</h1>
+  </div>
+
+  <div id="menu">
+    <ul>
+      <li><a href="home.html">Introdução</a></li><br>
+      <li><a href="imagens.html">Imagens e multimídia</a></li><br>
+      <li><a href="elementos.html">Elementos e Tags</a></li><br>
+      <li><a href="estrutura.html">Estrutura Básica</a></li><br>
+      
+    </ul>
+    <img src="../img/Banner.jpg" alt="Banner HTML" width="314" height="1615">
+  </div>
+
+  <div id="main">
+    <h2>Estudo 4: Imagens e Multimídia</h2>
+    <p>
+        Com a estrutura, os textos e os links dominados, o próximo passo para criar páginas 
+    atrativas é adicionar mídias. Nesta aula, você aprenderá a inserir imagens, 
+    áudios e vídeos nativamente no seu site utilizando HTML.
+    </p>
+    
+    <h2>Inserindo Imagens (A Tag &lt;img&gt;)</h2>
+    <p>A tag <mark>&lt;img&gt;</mark> é responsável por exibir imagens na página. 
+        Ela é uma tag auto-fechável <mark>(não possui &lt;/img&gt;)</mark> 
+        e exige dois atributos fundamentais: <mark>src (source / fonte):</mark> O caminho ou URL onde a imagem está salva. 
+        <mark>alt (alternative text / texto alternativo):</mark> A descrição da imagem. É essencial para acessibilidade 
+        (leitores de tela para deficientes visuais) e aparece caso a imagem falhe ao carregar.
+    </p>
+    
+    <ul>
+        <li><strong>src (source / fonte):</strong> O caminho ou URL onde a imagem está salva.</li>
+        <li><strong>alt (alternative text / texto alternativo):</strong> A descrição da imagem. 
+            É essencial para acessibilidade (leitores de tela para deficientes visuais) e 
+            aparece caso a imagem falhe ao carregar.
+        </li>
+    </ul>
+  
+    <hr>
+
+    <h2>Exemplo Prático de uso</h2>
+   
+    <h3>Inserindo uma imagem local</h3>
+    <img src="../img/codigo4.png" alt="Código exemplo" width="600" height="300">
+    <details> 
+        <summary>Clique aqui para ver mais informações</summary>
+        <p><strong>Dicas:</strong> Atributos de Tamanho: Você pode ajustar o tamanho diretamente no HTML usando <mark>width</mark> (largura) e 
+            <mark>height</mark> (altura) em pixels, embora o ideal em projetos profissionais seja controlar o tamanho via CSS.</p>
+    </details>
+
+    <h3>Inserindo Áudio (A Tag &lt;audio&gt;)</h3>
+    <p>Para reproduzir arquivos de som (como MP3 ou WAV), usamos a tag &lt;audio&gt;.
+    Ao adicionar o atributo controls, o navegador exibe automaticamente os botões de play, pause e controle de volume.</p>
+   
+    <img src="../img/codigo5.png" alt="Código exemplo" width="600" height="300">
+    <p> <mark>&lt;source&gt;</mark> listar o arquivo em múltiplos formatos. O navegador usará o primeiro que for compatível.</p>
+    <p><mark>Texto de fallback:</mark> O texto dentro da tag só aparece se o navegador do usuário for muito antigo e não suportar áudio.</p>
+    
+    <h3>Inserindo Vídeo (A Tag &lt;video&gt;)</h3>
+    <p>A tag <mark>&lt;video&gt;</mark> funciona de maneira muito parecida com a de áudio, permitindo exibir arquivos de vídeo 
+        (como MP4 ou WebM) diretamente na página.
+    </p>
+    <img src="../img/codigo6.png" alt="Código exemplo" width="600" height="300">  
+    
+    <hr>
+    
+   </head>
+<body>
+
+  <h4>Resumo Visual de Tags de Mídia</h4>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Tag</th>
+        <th>Tipo de Fechamento</th>
+        <th>Principais Atributos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>&lt;img&gt;</code></td>
+        <td><strong>Auto-fechável</strong></td>
+        <td>
+          <code>src</code>, <code>alt</code>, <code>width</code>, <code>height</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>&lt;audio&gt;</code></td>
+        <td>
+          <strong>Dupla (</strong><br>
+          <code>&lt;audio&gt;...&lt;/audio&gt;</code> <strong>)</strong>
+        </td>
+        <td>
+          <code>controls</code>, <code>autoplay</code>, <code>loop</code>, <code>muted</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>&lt;video&gt;</code></td>
+        <td>
+          <strong>Dupla (</strong><br>
+          <code>&lt;video&gt;...&lt;/video&gt;</code> <strong>)</strong>
+        </td>
+        <td>
+          <code>src</code>, <code>controls</code>, <code>width</code>, <code>height</code>, <code>poster</code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  
+  <div id="footer">
+    <p>© 2011 - 2026 Unipê - Todos os direitos reservados.</p> 
+  </div>
+</body>
+</html>
